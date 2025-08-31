@@ -44,7 +44,7 @@ export default function Header() {
               href="/contact"
               className="flex items-center gap-2 px-6 py-2 bg-[#C6AC8F] text-[#0A0908] font-semibold hover:bg-[#EAE0D5] hover:text-[#0A0908] transition-colors duration-300 shadow-md hover:shadow-lg"
             >
-              Let's Talk
+              <button>Let&apos;s Talk</button>
               <FaRegCommentDots className="w-5 h-5" />
             </Link>
           </motion.div>
@@ -108,7 +108,7 @@ export default function Header() {
                   className="flex items-center gap-2 rounded-full text-[#C6AC8F] font-semibold hover:bg-[#EAE0D5] hover:text-[#0A0908] transition-colors duration-300 shadow-md hover:shadow-lg"
                   onClick={() => setIsOpen(false)}
                 >
-                  Let's Talk
+                  <button>Let&apos;s Talk</button>
                   <FaRegCommentDots className="w-5 h-5" />
                 </Link>
               </li>

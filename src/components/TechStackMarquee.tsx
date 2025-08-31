@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const techStack = [
   { name: "React", logo: "/assets/React.svg" },
@@ -37,7 +38,7 @@ export default function TechStackMarquee() {
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <img src={tech.logo} alt={tech.name} className="w-16 h-16 mb-2" />
+              <Image src={tech.logo} alt={tech.name} className="w-16 h-16 mb-2" />
               <span className="text-lg font-semibold text-brand-dark text-center">
                 {tech.name}
               </span>
